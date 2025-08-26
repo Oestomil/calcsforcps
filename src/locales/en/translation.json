@@ -1,0 +1,81 @@
+{
+  "title": "Calcs for CPs",
+  "ATO": "ATO",
+  "ATG": "ATG",
+  "Titan": "Titan",
+  "HeatCapacity": "Heat Capacity",
+  "calculate": "Calculate",
+  "back": "Back",
+  "result_kg": "Result: {{value}} kg/h",
+  "result_kcal": "Result: {{value}} kCal (Cp@320C)",
+  "Capacity": "Capacity",
+  "enter_capacity": "Enter capacity",
+  "Ratio": "Ratio",
+  "enter_ratio": "Enter ratio",
+  "PPM": "PPM",
+  "enter_ppm": "Enter PPM",
+  "Flow": "Flow",
+  "enter_flow": "Enter flow",
+  "InputTemperature": "Input Temperature",
+  "enter_input_temp": "Enter input temperature",
+  "OutputTemperature": "Outlet Temperature",
+  "enter_output_temp": "Enter outlet temperature",
+  "ATO_page": "ATO Calculation Page",
+  "ATG_page": "ATG Calculation Page",
+  "Titan_page": "Titan Calculation Page",
+  "Heat_page": "Heat Capacity Calculation Page",
+  "Akışlar ve Isı Kapasitesi": "Flows and Heat Capacity",
+  "ATO Hesaplama": "ATO Calculation",
+  "ATG Hesaplama": "ATG Calculation",
+  "Titan/Baryum Hesaplama": "Titan/Barium Calculation",
+  "Isı Kapasitesi": "Heat Capacity",
+  "Hangi akışı hesaplamak istersin?": "Which flow do you want to calculate?",
+  "Kapasite": "Capacity",
+  "Oran": "Ratio",
+  "Hesapla": "Calculate",
+  "Sonuç": "Result",
+
+  "Stok_page": "Stok Hesaplama",
+  "Stok Hesaplama": "Stok Hesaplama",
+  "Yeniden Hesapla": "Yeniden Hesapla",
+  "İndir (Excel)": "İndir (Excel)",
+  "Yok": "Yok",
+  "Yeter Gün Sayısı": "Yeter Gün Sayısı",
+  "bilgi_ato": "ATO 380 ppm için hesaplandı.",
+
+  "main_title": "Calcs for CPs",
+  "main_subtitle": "Calculation Center — Flows, Heat Capacity and Stock Management",
+  "btn_flows": "Flows & Heat Capacity",
+  "btn_stock": "Stock Calculation",
+
+"stok_title": "Stock Calculation",
+  
+  "PTA": "PTA",
+  "MEG": "MEG",
+ 
+  "TitanBaryum": "Titan/Barium",
+
+  "download_excel": "Download (Excel)",
+  "reset_calc": "Recalculate",
+  "none": "None",
+  "sufficient_days": "Sufficient Days",
+  "stok_note": "ATO calculated for 380 ppm.",
+  "stok_results_sheet": "Stock Results",
+
+
+
+ 
+  "btn_unit": "Unit Converter",
+  "unit_page": "Unit Converter",
+  "unit_inch_cm": "Inch ↔ Centimeter",
+  "unit_liter_cc": "Liter ↔ Cubic Centimeter",
+  "unit_bar_mmhg": "bar ↔ mmHg",
+  "unit_bar_mpa": "bar ↔ MPa",
+  "unit_celsius_kelvin": "Celsius ↔ Kelvin"
+
+
+}
+
+
+
+
