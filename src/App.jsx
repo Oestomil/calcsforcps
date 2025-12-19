@@ -8,6 +8,7 @@ import ATO from "./flow/ATO";
 import ATG from "./flow/ATG";
 import Titan from "./flow/Titan";
 import Heat from "./flow/Heat";
+import ResidenceTime from "./flow/ResidenceTime";
 import StokHesaplama from "./StokHesaplama";
 import UnitConverter from "./UnitConverter";
 
@@ -68,6 +69,7 @@ function App() {
       <Route path="/flow/atg" element={<ATG />} />
       <Route path="/flow/titan" element={<Titan />} />
       <Route path="/flow/heat" element={<Heat />} />
+      <Route path="/flow/residence" element={<ResidenceTime />} />
       <Route path="/stok" element={<StokHesaplama />} />
       <Route path="/unit" element={<UnitConverter />} />
     </Routes>

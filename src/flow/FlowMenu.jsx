@@ -129,6 +129,9 @@ function FlowMenu() {
           <button style={flowBtnRed} onClick={() => navigate("/flow/heat")}>
             {t("Isı Kapasitesi")}
           </button>
+          <button style={flowBtnGreen} onClick={() => navigate("/flow/residence")}>
+            {t("Residence_Time")}
+          </button>
         </div>
       </div>
     </div>
@@ -178,6 +181,11 @@ const flowBtnGold = {
 const flowBtnRed = {
   ...flowBtnBlue,
   background: "linear-gradient(90deg,#ff7474 20%,#fa2a2a 100%)",
+  color: "#fff",
+};
+const flowBtnGreen = {
+  ...flowBtnBlue,
+  background: "linear-gradient(90deg,#34c759 20%,#32d184 100%)",
   color: "#fff",
 };
 

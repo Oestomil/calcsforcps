@@ -40,33 +40,53 @@
   "Yok": "Yok",
   "Yeter Gün Sayısı": "Yeter Gün Sayısı",
   "bilgi_ato": "ATO 380 ppm için hesaplandı.",
-  
   "main_title": "Calcs for CPs",
   "main_subtitle": "Hesaplama Merkezi — Akış, Isı Kapasitesi ve Stok Yönetimi",
   "btn_flows": "Akışlar ve Isı Kapasitesi",
   "btn_stock": "Stok Hesaplama",
-
   "stok_title": "Stok Hesaplama",
- 
   "PTA": "PTA",
   "MEG": "MEG",
- 
   "TitanBaryum": "Titan/Baryum",
-  
   "download_excel": "İndir (Excel)",
   "reset_calc": "Yeniden Hesapla",
   "none": "Yok",
   "sufficient_days": "Yeter Gün Sayısı",
   "stok_note": "ATO 380 ppm için hesaplandı.",
   "stok_results_sheet": "Stok Sonuçları",
-
   "btn_unit": "Birim Dönüştürücü",
   "unit_page": "Birim Dönüştürücü",
   "unit_inch_cm": "İnç ↔ Santimetre",
   "unit_liter_cc": "Litre ↔ Santimetreküp",
   "unit_bar_mmhg": "bar ↔ mmHg",
   "unit_bar_mpa": "bar ↔ MPa",
-  "unit_celsius_kelvin": "Celsius ↔ Kelvin"
-
+  "unit_celsius_kelvin": "Celsius ↔ Kelvin",
+  "Residence_Time": "Kalış Süresi",
+  "Pasta_Level": "Pasta Seviyesi (%)",
+  "Pasta_Level_girin": "Pasta seviyesini girin",
+  "R1_Level": "Reaktör 1 Seviyesi (%)",
+  "R1_Level_girin": "R1 seviyesini girin",
+  "R2_Level": "Reaktör 2 Seviyesi (%)",
+  "R2_Level_girin": "R2 seviyesini girin",
+  "R3_Level": "Reaktör 3 Seviyesi (%)",
+  "R3_Level_girin": "R3 seviyesini girin",
+  "R4_Level": "Reaktör 4 Seviyesi (%)",
+  "R4_Level_girin": "R4 seviyesini girin",
+  "R5_Level": "Reaktör 5 Seviyesi (%)",
+  "R5_Level_girin": "R5 seviyesini girin",
+  "Pasta_Density": "Pasta Yoğunluğu",
+  "Pasta_Density_girin": "Pasta yoğunluğunu girin",
+  "Results": "Sonuçlar",
+  "Pasta_Time": "Pasta Zamanı",
+  "R1_Time": "Reaktör 1 Zamanı",
+  "R2_Time": "Reaktör 2 Zamanı",
+  "R3_Time": "Reaktör 3 Zamanı",
+  "R4_Time": "Reaktör 4 Zamanı",
+  "R5_Time": "Reaktör 5 Zamanı",
+  "min": "dk",
+  "hour": "saat",
+  "Total_Time_Min": "Toplam Süre (Dakika)",
+  "Total_Time_Hour": "Toplam Süre (Saat)",
+  "Total_Without_Pasta_Min": "Toplam (Pastasız) Dakika",
+  "Total_Without_Pasta_Hour": "Toplam (Pastasız) Saat"
 }
-

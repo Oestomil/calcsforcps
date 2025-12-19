@@ -34,7 +34,6 @@
   "Oran": "Ratio",
   "Hesapla": "Calculate",
   "Sonuç": "Result",
-
   "Stok_page": "Stok Hesaplama",
   "Stok Hesaplama": "Stok Hesaplama",
   "Yeniden Hesapla": "Yeniden Hesapla",
@@ -42,40 +41,53 @@
   "Yok": "Yok",
   "Yeter Gün Sayısı": "Yeter Gün Sayısı",
   "bilgi_ato": "ATO 380 ppm için hesaplandı.",
-
   "main_title": "Calcs for CPs",
   "main_subtitle": "Calculation Center — Flows, Heat Capacity and Stock Management",
   "btn_flows": "Flows & Heat Capacity",
   "btn_stock": "Stock Calculation",
-
-"stok_title": "Stock Calculation",
-  
+  "stok_title": "Stock Calculation",
   "PTA": "PTA",
   "MEG": "MEG",
- 
   "TitanBaryum": "Titan/Barium",
-
   "download_excel": "Download (Excel)",
   "reset_calc": "Recalculate",
   "none": "None",
   "sufficient_days": "Sufficient Days",
   "stok_note": "ATO calculated for 380 ppm.",
   "stok_results_sheet": "Stock Results",
-
-
-
- 
   "btn_unit": "Unit Converter",
   "unit_page": "Unit Converter",
   "unit_inch_cm": "Inch ↔ Centimeter",
   "unit_liter_cc": "Liter ↔ Cubic Centimeter",
   "unit_bar_mmhg": "bar ↔ mmHg",
   "unit_bar_mpa": "bar ↔ MPa",
-  "unit_celsius_kelvin": "Celsius ↔ Kelvin"
-
-
+  "unit_celsius_kelvin": "Celsius ↔ Kelvin",
+  "Residence_Time": "Residence Time",
+  "Pasta_Level": "Pasta Level (%)",
+  "Pasta_Level_girin": "Enter pasta level",
+  "R1_Level": "Reactor 1 Level (%)",
+  "R1_Level_girin": "Enter R1 level",
+  "R2_Level": "Reactor 2 Level (%)",
+  "R2_Level_girin": "Enter R2 level",
+  "R3_Level": "Reactor 3 Level (%)",
+  "R3_Level_girin": "Enter R3 level",
+  "R4_Level": "Reactor 4 Level (%)",
+  "R4_Level_girin": "Enter R4 level",
+  "R5_Level": "Reactor 5 Level (%)",
+  "R5_Level_girin": "Enter R5 level",
+  "Pasta_Density": "Pasta Density",
+  "Pasta_Density_girin": "Enter pasta density",
+  "Results": "Results",
+  "Pasta_Time": "Pasta Time",
+  "R1_Time": "Reactor 1 Time",
+  "R2_Time": "Reactor 2 Time",
+  "R3_Time": "Reactor 3 Time",
+  "R4_Time": "Reactor 4 Time",
+  "R5_Time": "Reactor 5 Time",
+  "min": "min",
+  "hour": "hour",
+  "Total_Time_Min": "Total Time (Minutes)",
+  "Total_Time_Hour": "Total Time (Hours)",
+  "Total_Without_Pasta_Min": "Total (w/o Pasta) Minutes",
+  "Total_Without_Pasta_Hour": "Total (w/o Pasta) Hours"
 }
-
-
-
-
