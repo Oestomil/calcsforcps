@@ -15,7 +15,7 @@ function FlowMenu() {
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
-        padding: "5vw"
+        padding: "clamp(16px, 5vw, 40px)"
       }}
     >
       <div
@@ -23,13 +23,14 @@ function FlowMenu() {
           width: "100%",
           maxWidth: 420,
           background: "rgba(38,41,61,0.96)",
-          borderRadius: 22,
+          borderRadius: "clamp(16px, 4vw, 22px)",
           boxShadow: "0 6px 32px #0007",
-          padding: "30px 18px 22px 18px",
+          padding: "clamp(22px, 5vw, 30px) clamp(16px, 4vw, 18px)",
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-          gap: 28,
+          gap: "clamp(20px, 5vw, 28px)",
+          boxSizing: "border-box"
         }}
       >
         {/* HEADER */}
@@ -39,8 +40,8 @@ function FlowMenu() {
             display: "flex",
             alignItems: "center",
             justifyContent: "space-between",
-            marginBottom: 8,
-            gap: 10
+            marginBottom: "clamp(6px, 2vw, 8px)",
+            gap: "clamp(8px, 2vw, 10px)"
           }}
         >
           {/* Geri */}
@@ -49,11 +50,11 @@ function FlowMenu() {
             style={{
               background: "rgba(34,39,56,0.86)",
               border: "none",
-              borderRadius: 8,
-              padding: "7px 13px 7px 8px",
+              borderRadius: "clamp(6px, 2vw, 8px)",
+              padding: "clamp(6px, 2vw, 7px) clamp(10px, 3vw, 13px) clamp(6px, 2vw, 7px) clamp(6px, 2vw, 8px)",
               color: "#c8d0ec",
               fontWeight: 700,
-              fontSize: 18,
+              fontSize: "clamp(16px, 4vw, 18px)",
               boxShadow: "0 2px 10px #0003",
               cursor: "pointer",
               display: "flex",
@@ -63,7 +64,7 @@ function FlowMenu() {
             aria-label="Geri"
           >
             <span style={{
-              fontSize: 21, fontWeight: 900, marginRight: 2, display: "inline-block", transform: "translateY(-1px)"
+              fontSize: "clamp(18px, 5vw, 21px)", fontWeight: 900, marginRight: "clamp(1px, 0.5vw, 2px)", display: "inline-block", transform: "translateY(-1px)"
             }}>←</span>
           </button>
 
@@ -71,7 +72,7 @@ function FlowMenu() {
           <span
             style={{
               fontWeight: 800,
-              fontSize: "1.16rem",
+              fontSize: "clamp(16px, 4.5vw, 18.5px)",
               letterSpacing: "0.5px",
               color: "#E5E9FF",
               textShadow: "0 4px 24px #0009",
@@ -107,16 +108,16 @@ function FlowMenu() {
         <div
           style={{
             fontWeight: 400,
-            fontSize: "1.02rem",
+            fontSize: "clamp(14px, 4vw, 16px)",
             color: "#a0aed7",
             marginBottom: 0,
-            marginTop: 2,
+            marginTop: "clamp(2px, 0.5vw, 4px)",
             textAlign: "center"
           }}
         >
           {t("Hangi akışı hesaplamak istersin?")}
         </div>
-        <div style={{ width: "100%", display: "flex", flexDirection: "column", gap: 18 }}>
+        <div style={{ width: "100%", display: "flex", flexDirection: "column", gap: "clamp(14px, 4vw, 18px)" }}>
           <button style={flowBtnBlue} onClick={() => navigate("/flow/ato")}>
             {t("ATO Hesaplama")}
           </button>
@@ -143,10 +144,10 @@ const langButton = (active) => ({
   background: active ? "#414158" : "#232942",
   color: "#e0e0e0",
   border: "1px solid #363648",
-  borderRadius: 7,
-  padding: "3px 12px",
-  fontSize: 15,
-  marginLeft: 4,
+  borderRadius: "clamp(6px, 2vw, 7px)",
+  padding: "clamp(4px, 1.5vw, 6px) clamp(10px, 3vw, 12px)",
+  fontSize: "clamp(13px, 3.5vw, 15px)",
+  marginLeft: "clamp(3px, 1vw, 4px)",
   fontWeight: 600,
   cursor: "pointer",
   boxShadow: "0 1px 4px #0002",
@@ -156,10 +157,10 @@ const langButton = (active) => ({
 // Hesaplama butonları
 const flowBtnBlue = {
   width: "100%",
-  padding: "16px 0",
-  borderRadius: 14,
+  padding: "clamp(14px, 4vw, 16px) 0",
+  borderRadius: "clamp(12px, 3vw, 14px)",
   border: "none",
-  fontSize: 19,
+  fontSize: "clamp(16px, 4.5vw, 19px)",
   fontWeight: 700,
   color: "#f7fafd",
   background: "linear-gradient(90deg,#4978fa 20%,#3a57c9 100%)",
